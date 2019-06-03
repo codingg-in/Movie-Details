@@ -20,7 +20,7 @@ cst = "N.A."
 def loading():
     for i in range(0, 100):
         time.sleep(0.05)
-        bar = "[" + "█" * i + " " * (100 - i) + "\b] "
+        bar = "[" + "█" * i + " " * (100 - i) + "\b]"
         sys.stdout.write("\r"+"Fetching: " +  bar +str(i + 1)+ "%")
         sys.stdout.flush()
 
